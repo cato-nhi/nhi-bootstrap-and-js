@@ -1,0 +1,54 @@
+/**
+ * Theme-alterations / main / usikker.less
+ */
+
+
+/**
+ * Layout.less
+ */
+
+.fw-navbar {
+	margin-bottom: 0;
+	color: #fefefe;
+}
+
+.fw-navbar .navbar-nav > li > a {
+	color: #fefefe;
+}
+
+.fw-container {
+	background-color: #f1f1f1;	
+}
+
+.fw-sidebar {
+	font-size: 1.5em;
+}
+
+.fw-main-content {
+	background-color: #fff;
+	padding-top: 25px;
+}
+
+/**
+ * Components.less (skilles ut i egne filer)
+ */ 
+
+.login {
+	background-color: #eee;
+	padding: 25px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.login h1 {
+	margin: 0 0 10px 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+	.fw-main-content {
+		border-left: 1px solid #ccc;
+	}
+}
